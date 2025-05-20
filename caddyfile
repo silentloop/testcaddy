@@ -6,18 +6,6 @@
     }
   }
 
-  handle_path /api/encode {
-    base64 {
-      mode "encode"
-    }
-  }
-
-  handle_path /api/decode {
-    base64 {
-      mode "decode"
-    }
-  }
-
   handle_path /healthcheck {
     respond "ok"
   }

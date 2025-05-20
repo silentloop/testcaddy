@@ -1,11 +1,16 @@
 package main
 
 import (
-	"github.com/caddyserver/caddy/v2"
+	"fmt"
+
+	caddycmd "github.com/caddyserver/caddy/v2/cmd"
+
+	_ "github.com/caddyserver/caddy/v2/modules/standard"
 	_ "github.com/silentloop/testcaddy/handler"
 )
 
 func main() {
-	cfg := &caddy.Config{}
-	caddy.Run(cfg)
+
+	fmt.Println("🟢 Plugin module loading: encrypt")
+	caddycmd.Main()
 }

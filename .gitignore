@@ -13,3 +13,5 @@ env.*.sh
 .conf
 
 caddy
+
+buildenv_*

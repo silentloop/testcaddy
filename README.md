@@ -1,4 +1,4 @@
-# testcaddy
+# testcaddy (not work)
 
 🛡️ A lightweight internal HTTP data gateway based on [Caddy](https://caddyserver.com/) and custom Go plugins.  
 This project is a Go-native reimplementation of an OpenResty/Lua encryption gateway.
